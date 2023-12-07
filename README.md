@@ -68,3 +68,6 @@ docker run -p 5000:5000 -p 3000:3000 jsalammagari/microblabbing
 
 https://microblab.onrender.com/
 
+### Swagger
+
+https://microblab.onrender.com/api-docs/

@@ -1,4 +1,4 @@
-# microblab 2.0
+# Microblab
 
 # Quick Start 🚀
 
@@ -9,6 +9,7 @@
   "mongoURI": "<your_mongoDB_Atlas_uri_with_credentials>",
   "jwtSecret": "secret",
   "githubToken": "<yoursecrectaccesstoken>"
+  
 }
 ```
 

@@ -6,13 +6,19 @@ services:
     ports:
       - "5000:5000"
       - "3000:3000"
-    depends_on:
-      - redis
     environment:
-      - REDIS_URL=redis://redis:6379
+      - mongoURI=mongodb+srv://jahnavisalammagari:BlaYzObzpCSmBEcW@clustermicroblab.qtsn8jv.mongodb.net/MicroBlab?retryWrites=true&w=majority
+      - jwtSecret=my-secret
+      - githubToken=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
+      - GoogleClientId=602322387096-ds7lr4lnm637uamuu56m8hflcmbc3gfh.apps.googleusercontent.com
+      - GoogleClientSecret=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
+      - TwitterconsumerKey=c9Dcg87uxlEwhZ15tplF9xkLz
+      - TwitterconsumerSecret=1ESA0cq76m2rjF0HsXuohg1tkkNlfTmMpusICrZ05k8vJ9AbRv
+      - GitHubclientID=40feee01172a85cf2418
+      - GitHubclientSecret=ccd7a8e782383c3c2117f244757f6dce22b4c0c5
+      - UIUrl=http://localhost:3000
+      - ServerUrl=http://localhost:5000
+      - RedisPW=0hSc2r8TVbTzeioK855nCJZjU9dsubwy
+      - NODE_ENV=development
+      - REACT_APP_SERVER_URL='http://localhost:5000'
     # other environment variables...
-
-  redis:
-    image: redis
-    ports:
-      - "6379:6379"

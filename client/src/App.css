@@ -728,6 +728,9 @@ a {
 .twoFABox{
   float: left;
 }
+.forgotPassword{
+  padding-top: 20px;
+}
 .searchbox{
   display: block;
   width: 30%;

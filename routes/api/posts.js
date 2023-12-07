@@ -13,7 +13,7 @@ const passport = require('passport');
 //   url: process.env.REDIS_URL || 'redis://localhost:6379'
 // });
 const redisClient = createClient({
-  password: process.env.RedisPW,
+  password: '0hSc2r8TVbTzeioK855nCJZjU9dsubwy',
   socket: {
       host: 'redis-18209.c267.us-east-1-4.ec2.cloud.redislabs.com',
       port: 18209

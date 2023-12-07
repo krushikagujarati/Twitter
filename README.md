@@ -1,16 +1,23 @@
 # Microblab
 
-# Quick Start 🚀
+### Env variables
 
-### Add a default.json file in config folder with the following
+Rename the .env.example file to .env in both main folder and client folder and add the following
 
-```json
-{
-  "mongoURI": "<your_mongoDB_Atlas_uri_with_credentials>",
-  "jwtSecret": "secret",
-  "githubToken": "<yoursecrectaccesstoken>"
-  
-}
+```
+mongoURI=<mongoURI>
+jwtSecret=my-secret
+githubToken=<githubToken>
+GoogleClientId=<GoogleClientId>
+GoogleClientSecret=<GoogleClientSecret>
+TwitterconsumerKey=<TwitterconsumerKey>
+TwitterconsumerSecret=<TwitterconsumerSecret>
+GitHubclientID=<GitHubclientID>
+GitHubclientSecret=<GitHubclientSecret>
+UIUrl=http://localhost:3000
+ServerUrl=http://localhost:5000
+RedisPW=<RedisPW>
+NODE_ENV=development
 ```
 
 ### Install server dependencies
@@ -32,30 +39,13 @@ npm install
 npm run dev
 ```
 
-### Build for production
-
-```bash
-cd client
-npm run build
-```
-
-### Test production before deploy
-
-After running a build in the client 👆, cd into the root of the project.  
-And run...
-
-Linux/Unix
-
-```bash
-NODE_ENV=production node server.js
-```
-
-Windows Cmd Prompt or Powershell
-
-```bash
-$env:NODE_ENV="production"
-node server.js
-```
-
 Check in browser on [http://localhost:5000/](http://localhost:5000/)
+
+### BI Dashboard
+
+![BI-dashboard](https://github.com/krushikagujarati/Twitter/assets/48424819/79d277d6-9825-4a85-8fe7-7d4733579101)
+
+### Live url
+
+https://microblab.onrender.com/
 

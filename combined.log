@@ -1,3 +1,16 @@
 {"level":"info","message":"Server running on port 5000"}
 {"level":"info","message":"Server running on port 5000"}
 {"level":"info","message":"GET /getuser 200 - - 6.854 ms"}
+{"level":"error","message":"get authCannot read properties of undefined (reading '_id')"}
+{"level":"info","message":"GET /api/auth 500 12 - 3.986 ms"}
+{"level":"info","message":"GET / 404 139 - 1.431 ms"}
+{"level":"info","message":"GET / 404 139 - 0.703 ms"}
+{"level":"info","message":"GET /api-docs/ 304 - - 1.643 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 - - 0.898 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 - - 1.139 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.678 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 13756 - 0.831 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 - - 0.874 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js.map 200 1904429 - 58.077 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js.map 200 331651 - 31.677 ms"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css.map 200 262666 - 24.241 ms"}

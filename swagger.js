@@ -23,6 +23,9 @@ const options = {
     servers: [
       {
         url: 'http://localhost:5000/api' // Adjust the port and base URL as necessary
+      },
+      {
+        url: 'https://microblab.onrender.com/api' // Adjust the port and base URL as necessary
       }
     ]
   },

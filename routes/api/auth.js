@@ -14,7 +14,7 @@ const User = require('../../models/User');
 // @access   Private
 router.get('/', auth, async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).select('-password');
+    const user = await User.findById(req.user._id).select('-password');
     logger.info('get auth');
     res.json(user);
   } catch (err) {
@@ -104,7 +104,7 @@ router.post(
 
       jwt.sign(
         payload,
-        config.get('jwtSecret'),
+        process.env.jwtSecret,
         { expiresIn: '5 days' },
         (err, token) => {
           if (err) throw err;

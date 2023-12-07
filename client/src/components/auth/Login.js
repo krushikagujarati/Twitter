@@ -17,7 +17,7 @@ const Login = ({ login, isAuthenticated }) => {
   }
 
   const githubLogin = () => {
-      window.open(`${process.env.REACT_APP_SERVER_URL}/auth/github`, "_self");
+    window.open(`${process.env.REACT_APP_SERVER_URL}/auth/github`, "_self");
   }
 
   const twitterLogin = () => {

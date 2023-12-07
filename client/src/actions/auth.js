@@ -37,7 +37,7 @@ export const loadUser = () => async (dispatch) => {
     //           });
     //         }
     //     })
-    console.log("res"+JSON.stringify(res))
+    //console.log("res"+JSON.stringify(res))
     dispatch({
       type: USER_LOADED,
       payload: res.data

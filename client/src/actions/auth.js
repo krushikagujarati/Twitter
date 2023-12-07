@@ -21,26 +21,27 @@ import {
 // Load User
 export const loadUser = () => async (dispatch) => {
   try {
-    //const res = await api.get('/auth');
-    axios.get(`${process.env.REACT_APP_SERVER_URL}/getuser`, { withCredentials: true }).then((res) => {
-     // console.log("res"+JSON.stringify(res))
-            if (res.data) {
-              dispatch({
-                type: USER_LOADED,
-                payload: res.data
-              });
-            }
-            else{
-              console.log("autherr");
-              dispatch({
-                type: AUTH_ERROR
-              });
-            }
-        })
-    // dispatch({
-    //   type: USER_LOADED,
-    //   payload: res.data
-    // });
+    const res = await api.get('/auth');
+    // axios.get(`${process.env.REACT_APP_SERVER_URL}/getuser`, { withCredentials: true }).then((res) => {
+    //   console.log("res"+JSON.stringify(res))
+    //         if (res.data) {
+    //           dispatch({
+    //             type: USER_LOADED,
+    //             payload: res.data
+    //           });
+    //         }
+    //         else{
+    //           console.log("autherr");
+    //           dispatch({
+    //             type: AUTH_ERROR
+    //           });
+    //         }
+    //     })
+    console.log("res"+JSON.stringify(res))
+    dispatch({
+      type: USER_LOADED,
+      payload: res.data
+    });
   } catch (err) {
     dispatch({
       type: AUTH_ERROR

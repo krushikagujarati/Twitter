@@ -199,7 +199,13 @@ app.get('/auth/github/callback',
   });
 
 app.get("/getuser", (req, res) => {
-  res.send(req.user);
+  if(req.user){
+    res.send(req.user);
+  }else{
+    return res.status(401).send({
+      success: false,
+    });
+  }
 })
 
 

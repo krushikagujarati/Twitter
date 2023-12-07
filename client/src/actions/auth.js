@@ -23,6 +23,7 @@ export const loadUser = () => async (dispatch) => {
   try {
     //const res = await api.get('/auth');
     axios.get(`${process.env.REACT_APP_SERVER_URL}/getuser`, { withCredentials: true }).then((res) => {
+     // console.log("res"+JSON.stringify(res))
             if (res.data) {
               dispatch({
                 type: USER_LOADED,

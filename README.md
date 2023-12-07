@@ -2,8 +2,9 @@
 
 ### Env variables
 
-Rename the .env.example file to .env in both main folder and client folder and add the following
+Rename the .env.example file to .env in both root folder and client folder and add the following
 
+In root folder
 ```
 mongoURI=<mongoURI>
 jwtSecret=my-secret
@@ -16,8 +17,12 @@ GitHubclientID=<GitHubclientID>
 GitHubclientSecret=<GitHubclientSecret>
 UIUrl=http://localhost:3000
 ServerUrl=http://localhost:5000
-RedisPW=<RedisPW>
 NODE_ENV=development
+```
+
+In client folder
+```
+REACT_APP_SERVER_URL = 'http://localhost:5000'
 ```
 
 ### Install server dependencies

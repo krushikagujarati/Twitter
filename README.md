@@ -46,6 +46,8 @@ npm run dev
 
 Check in browser on [http://localhost:5000/](http://localhost:5000/)
 
+Check in browser for swagger-api on [http://localhost:5000/api-docs/](http://localhost:5000/api-docs/)
+
 ### BI Dashboard
 
 ![BI-dashboard](https://github.com/krushikagujarati/Twitter/assets/48424819/79d277d6-9825-4a85-8fe7-7d4733579101)

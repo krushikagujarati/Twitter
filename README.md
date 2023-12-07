@@ -58,6 +58,12 @@ Check in browser for swagger-api on [http://localhost:5000/api-docs/](http://loc
 docker pull jsalammagari/microblabbing
 ```
 
+### You can run the docker image using the below command
+
+```
+docker run -p 5000:5000 -p 3000:3000 jsalammagari/microblabbing
+```
+
 ### Live url
 
 https://microblab.onrender.com/

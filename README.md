@@ -12,6 +12,11 @@ https://docs.google.com/document/d/1jb4qpKh-RfzZ8_IaBwjfIj2nHGyFSEhb/edit?usp=sh
 
 https://docs.google.com/document/d/1TjQM-QBT8mTWNSv3fP0k5T4uBpsg8vbh/edit?usp=sharing&ouid=103705650152882518070&rtpof=true&sd=true
 
+### Project slides:
+
+https://docs.google.com/presentation/d/14OgYG9J0LCJAJJ_6QZ29FoqXwt90-Cm-/edit?usp=sharing&ouid=101938378291297005812&rtpof=true&sd=true
+
+
 
 ### Env variables
 

@@ -1,5 +1,14 @@
 # Microblab
 
+### Report
+
+https://docs.google.com/document/d/1DYC9KU1Jm66KITj3A2HePqBGMo_o-PXx/edit?usp=drive_link&ouid=103705650152882518070&rtpof=true&sd=true
+
+### Scaling Plan
+
+https://docs.google.com/document/d/1jb4qpKh-RfzZ8_IaBwjfIj2nHGyFSEhb/edit?usp=sharing&ouid=103705650152882518070&rtpof=true&sd=true
+
+
 ### Env variables
 
 Rename the .env.example file to .env in both root folder and client folder and add the following

@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1DYC9KU1Jm66KITj3A2HePqBGMo_o-PXx/edit?usp=dr
 
 https://docs.google.com/document/d/1jb4qpKh-RfzZ8_IaBwjfIj2nHGyFSEhb/edit?usp=sharing&ouid=103705650152882518070&rtpof=true&sd=true
 
-### Program Development Log
+### Project Development Log
 
 https://docs.google.com/document/d/1TjQM-QBT8mTWNSv3fP0k5T4uBpsg8vbh/edit?usp=sharing&ouid=103705650152882518070&rtpof=true&sd=true
 

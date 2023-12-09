@@ -44,7 +44,7 @@ npm install
 npm run dev
 ```
 
-Check in browser on [http://localhost:5000/](http://localhost:5000/)
+Check in browser on [http://localhost:3000/](http://localhost:3000/)
 
 Check in browser for swagger-api on [http://localhost:5000/api-docs/](http://localhost:5000/api-docs/)
 
